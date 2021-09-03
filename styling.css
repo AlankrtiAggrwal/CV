@@ -1,0 +1,10 @@
+body{background-color: teal;
+font-family:'Roboto', sans-serif}
+
+h1 {background-color: coral}
+
+
+   @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap')
+
+.details{
+  color:red}
