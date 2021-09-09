@@ -1,86 +1,66 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>Personal Site</title>
-    <link rel="stylesheet" href="styling">
-  </head>
-  <body style="background-color: teal;
-font-family:'Roboto', sans-serif">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORM</title>
 
-.parent{
-    position: absolute;
-    top: 1rem;
-    left: 5rem;
-    width: 70rem;
-    height: 35rem;
-    border: 0.2rem black solid;
-    border-radius: 1rem;
-    padding-top: 1rem;
-    padding-left: 3rem;
-}
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <div class="parent">
+        <h1>Subscribe to XYZ...... blah blah blah</h1>
+        <p>interested in ......  blah blah blah</p>
+        <br>
+        <div class="thinLine"></div>
+        <br>
+        <form action="/bruh">
+            <h1>Please fill the form .....</h1>
 
-.parent h1{
-    position: relative;
-    font-size: 2rem;
-}
+            <p>
+                <input type="text" placeholder="First Name">
+            </p>
+            <br>
+            <p>
+                <input type="text" placeholder="Last Name">
+            </p>
+            <br>
+            <p>
+                <input type="text" placeholder="Business">
+            </p>
+            <br>
+            <p style="font-size: 1.5rem;">
+                <label for="emial">Enter your e-mail</label>
+                <input id="emial" type="email" placeholder="Enter a valid e-mail">
+            </p>
 
-.thinLine{
-    position: relative;
-    width: 94%;
-    height: 0.2rem;
-    background: black;
-}
+            <p>
+                *How did you hear..... blah blah blah</p>
+            <p>
+                <input type="radio" name="hear" id="web">
+                <label for="web">On Web</label>
 
-input:focus{
-    outline: none;
-}
+                <input type="radio" name="hear" id="magazine">
+                <label for="magazine">In a magazine</label>
 
-.parent input[type='text']{
-    position: relative;
-    width: 14rem;
-    height: 2.8rem;
-    border: 0.2rem #30413f solid;
-    border-radius: 0.5rem;
-}
+                <input type="radio" name="hear" id="Televison">
+                <label for="Televison">Televison</label>
 
-.parent input::placeholder{
-    position: absolute;
-    padding-top: 0.3rem;
-    padding-left: 0.3rem;
-    font-size: 1.5rem;
-}
+                <input type="radio" name="hear" id="other">
+                <label for="other">Other</label>
+            </p>
 
-
-.parent input[type='email']{
-    position: relative;
-    width: 21rem;
-    height: 2.8rem;
-    border: 0.2rem #30413f solid;
-    border-radius: 0.5rem;
-}
-
-.parent input[type='email']::placeholder{
-    position: absolute;
-    padding-top: 0.3rem;
-    padding-left: 1.3rem;
-    font-size: 1.5rem;
-}
-
-button[type='reset'],
-button[type='submit']{
-    position: relative;
-    top: -1rem;
-    left: 25rem;
-    width: 7rem;
-    height: 2.5rem;
-    border: 0.1rem #30413f solid;
-    border-radius: 0.3rem;
-    background: rgb(41, 63, 44);
-    color: white;
-    font-size: 1.5rem;
-    cursor: pointer;
-}
-
+            <p>
+                *Would you like to....... blah blah blah 
+                <br>
+            <input type="checkbox" name="checkbox" id="checkbox">
+            <label for="checkbox">Yes, we love junk emials</label>
+            </p>
+             
+            <button type="reset">RESET</button>
+            <button type="submit">SUBMIT</button>
+        </form>
+    </div>
 </body>
 </html>
