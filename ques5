@@ -8,16 +8,6 @@
   <body style="background-color: teal;
 font-family:'Roboto', sans-serif">
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-body{
-    font-family: 'Poppins', sans-serif;
-}
-
 .parent{
     position: absolute;
     top: 1rem;
