@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.parent{
+    position: absolute;
+    top: 1rem;
+    left: 5rem;
+    width: 70rem;
+    height: 35rem;
+    border: 0.2rem black solid;
+    border-radius: 1rem;
+    padding-top: 1rem;
+    padding-left: 3rem;
+}
+
+.parent h1{
+    position: relative;
+    font-size: 2rem;
+}
+
+.thinLine{
+    position: relative;
+    width: 94%;
+    height: 0.2rem;
+    background: black;
+}
+
+input:focus{
+    outline: none;
+}
+
+.parent input[type='text']{
+    position: relative;
+    width: 14rem;
+    height: 2.8rem;
+    border: 0.2rem #30413f solid;
+    border-radius: 0.5rem;
+}
+
+.parent input::placeholder{
+    position: absolute;
+    padding-top: 0.3rem;
+    padding-left: 0.3rem;
+    font-size: 1.5rem;
+}
+
+
+.parent input[type='email']{
+    position: relative;
+    width: 21rem;
+    height: 2.8rem;
+    border: 0.2rem #30413f solid;
+    border-radius: 0.5rem;
+}
+
+.parent input[type='email']::placeholder{
+    position: absolute;
+    padding-top: 0.3rem;
+    padding-left: 1.3rem;
+    font-size: 1.5rem;
+}
+
+button[type='reset'],
+button[type='submit']{
+    position: relative;
+    top: -1rem;
+    left: 25rem;
+    width: 7rem;
+    height: 2.5rem;
+    border: 0.1rem #30413f solid;
+    border-radius: 0.3rem;
+    background: rgb(41, 63, 44);
+    color: white;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
