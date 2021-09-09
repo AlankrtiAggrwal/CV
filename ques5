@@ -1,0 +1,61 @@
+  
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+    <title>FORM</title>
+</head>
+<body>
+        <h1>Subscribe to XYZ...... blah blah blah</h1>
+        <p>interested in ......  blah blah blah</p>
+        <br>
+        <br>
+        <form action="/bruh">
+            <h1>Please fill the form .....</h1>
+
+            <p>
+                <input type="text" placeholder="First Name">
+            </p>
+            <br>
+            <p>
+                <input type="text" placeholder="Last Name">
+            </p>
+            <br>
+            <p>
+                <input type="text" placeholder="Business">
+            </p>
+            <br>
+            <p style="font-size: 1.5rem;">
+                <label for="emial">Enter your e-mail</label>
+                <input id="emial" type="email" placeholder="Enter a valid e-mail">
+            </p>
+
+            <p>
+                *How did you hear..... blah blah blah</p>
+            <p>
+                <input type="radio" name="hear" id="web">
+                <label for="web">On Web</label>
+
+                <input type="radio" name="hear" id="magazine">
+                <label for="magazine">In a magazine</label>
+
+                <input type="radio" name="hear" id="Televison">
+                <label for="Televison">Televison</label>
+
+                <input type="radio" name="hear" id="other">
+                <label for="other">Other</label>
+            </p>
+
+            <p>
+                *Would you like to....... blah blah blah 
+                <br>
+            <input type="checkbox" name="checkbox" id="checkbox">
+            <label for="checkbox">Yes, we love junk emials</label>
+            </p>
+             
+            <button type="reset">RESET</button>
+            <button type="submit">SUBMIT</button>
+        </form>
+  
+</body>
+</html>
