@@ -1,4 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Personal Site</title>
+    <link rel="stylesheet" href="styling">
+  </head>
+  <body style="background-color: teal;
+font-family:'Roboto', sans-serif">
 
 *{
     margin: 0;
@@ -83,3 +91,6 @@ button[type='submit']{
     font-size: 1.5rem;
     cursor: pointer;
 }
+
+</body>
+</html>
